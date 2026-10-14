@@ -1,0 +1,20 @@
+{
+  "as_of": "2026-10-14",
+  "reviewed_commit": "361a916999d9b123ecc4dd6a1039effda9d8caa4",
+  "prior_work_commit": "57a8b7d33d41714dd5bfe8c92a9fb8e0ae62b4b1",
+  "data_status": "SYNTHETIC_NOT_COMPANY_DATA",
+  "cowork_reexecution": {"status": "PASS", "representative_scenarios": 10, "primary_grid_points": 252},
+  "independent_formula_review": {"status": "PASS", "same_grid_points": 252, "cost_tie_boundaries_usd_per_bbl": [2.08, 4.16], "boundary_neighbors_checked": [-0.01, 0.01]},
+  "verified_source_blob_shas": {
+    "examples/readiness_case.py": "8768f53b2f550822e1f8ce85dd214be6ab2c9d5d",
+    "cowork/2026-10-14-supply-decision/verify_design.py": "f6023e727ff0fa4e67ace28fba7cf9466b3158a6",
+    "cowork/2026-10-14-supply-decision/inputs/scenarios.json": "e9e336e11d9e621bda90ee456a0bbb7790f4acae"
+  },
+  "saved_results": {"status": "EXACT_MATCH_AFTER_LF_TO_CRLF", "repository_blob_sha": "2c4d4afc8f0e9d98c9a247bf53bdd7647d458ccb", "local_lf_blob_sha": "ccc38c83263017daf42babe5634031111b1b2dc1"},
+  "legacy_14_and_10_tests": "PRIOR_COWORK_RECORD_NOT_SEPARATELY_RERUN_IN_THIS_INTEGRATION",
+  "secondary_full_grid": "NOT_EXECUTED",
+  "original_code_and_data_modified": false,
+  "ir_pdf_image_crosscheck": "NOT_COMPLETED",
+  "company_real_world_validation": "NOT_PERFORMED",
+  "user_independent_explanation": "NOT_YET_CONFIRMED"
+}
