@@ -1,0 +1,3435 @@
+{
+  "data_status": "SYNTHETIC_NOT_COMPANY_DATA",
+  "scenarios": {
+    "S0": {
+      "data_status": "SYNTHETIC_NOT_COMPANY_DATA",
+      "conditions": {
+        "delay_days": 0,
+        "additional_cost": 0,
+        "b_premium": 3,
+        "base_price": 72,
+        "early_premium": 13,
+        "early_limit": 160,
+        "early_lot": 80,
+        "b_available": true,
+        "b_partial": false,
+        "b_partial_limit": 160,
+        "b_partial_lot": 80,
+        "split_fee_kusd": 0,
+        "quality_hold_days": 0,
+        "low_compatible": true
+      },
+      "unavailable": [],
+      "winners": [
+        "A"
+      ],
+      "best_cost_kusd": 36000,
+      "plans": {
+        "A": {
+          "status": "FEASIBLE_UNDER_ASSUMPTIONS",
+          "cost_kusd": 36000,
+          "violations": [],
+          "min_planned_usable_kbbl": 80,
+          "ledger": [
+            {
+              "day": 1,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 2,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 3,
+              "arrivals_kbbl": 500,
+              "released_kbbl": 500,
+              "planned_stored_before_use_kbbl": 580,
+              "planned_stored_closing_kbbl": 500,
+              "planned_usable_closing_kbbl": 500,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 4,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 500,
+              "planned_stored_closing_kbbl": 420,
+              "planned_usable_closing_kbbl": 420,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 5,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 420,
+              "planned_stored_closing_kbbl": 340,
+              "planned_usable_closing_kbbl": 340,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 6,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 340,
+              "planned_stored_closing_kbbl": 260,
+              "planned_usable_closing_kbbl": 260,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 7,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 260,
+              "planned_stored_closing_kbbl": 180,
+              "planned_usable_closing_kbbl": 180,
+              "blocked_kbbl": 0
+            }
+          ],
+          "purchase_kbbl": 500,
+          "peak_planned_stored_kbbl": 580,
+          "minimum_usable_margin_kbbl": 0,
+          "storage_margin_kbbl": 20
+        },
+        "B": {
+          "status": "FEASIBLE_UNDER_ASSUMPTIONS",
+          "cost_kusd": 37500,
+          "violations": [],
+          "min_planned_usable_kbbl": 80,
+          "ledger": [
+            {
+              "day": 1,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 2,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 3,
+              "arrivals_kbbl": 500,
+              "released_kbbl": 500,
+              "planned_stored_before_use_kbbl": 580,
+              "planned_stored_closing_kbbl": 500,
+              "planned_usable_closing_kbbl": 500,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 4,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 500,
+              "planned_stored_closing_kbbl": 420,
+              "planned_usable_closing_kbbl": 420,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 5,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 420,
+              "planned_stored_closing_kbbl": 340,
+              "planned_usable_closing_kbbl": 340,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 6,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 340,
+              "planned_stored_closing_kbbl": 260,
+              "planned_usable_closing_kbbl": 260,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 7,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 260,
+              "planned_stored_closing_kbbl": 180,
+              "planned_usable_closing_kbbl": 180,
+              "blocked_kbbl": 0
+            }
+          ],
+          "purchase_kbbl": 500,
+          "peak_planned_stored_kbbl": 580,
+          "minimum_usable_margin_kbbl": 0,
+          "storage_margin_kbbl": 20
+        },
+        "C80": {
+          "status": "FEASIBLE_UNDER_ASSUMPTIONS",
+          "cost_kusd": 37040,
+          "violations": [],
+          "min_planned_usable_kbbl": 80,
+          "ledger": [
+            {
+              "day": 1,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 2,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 3,
+              "arrivals_kbbl": 500,
+              "released_kbbl": 500,
+              "planned_stored_before_use_kbbl": 580,
+              "planned_stored_closing_kbbl": 500,
+              "planned_usable_closing_kbbl": 500,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 4,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 500,
+              "planned_stored_closing_kbbl": 420,
+              "planned_usable_closing_kbbl": 420,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 5,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 420,
+              "planned_stored_closing_kbbl": 340,
+              "planned_usable_closing_kbbl": 340,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 6,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 340,
+              "planned_stored_closing_kbbl": 260,
+              "planned_usable_closing_kbbl": 260,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 7,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 260,
+              "planned_stored_closing_kbbl": 180,
+              "planned_usable_closing_kbbl": 180,
+              "blocked_kbbl": 0
+            }
+          ],
+          "purchase_kbbl": 500,
+          "peak_planned_stored_kbbl": 580,
+          "minimum_usable_margin_kbbl": 0,
+          "storage_margin_kbbl": 20
+        },
+        "C160": {
+          "status": "FEASIBLE_UNDER_ASSUMPTIONS",
+          "cost_kusd": 38080,
+          "violations": [],
+          "min_planned_usable_kbbl": 80,
+          "ledger": [
+            {
+              "day": 1,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 2,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 3,
+              "arrivals_kbbl": 500,
+              "released_kbbl": 500,
+              "planned_stored_before_use_kbbl": 580,
+              "planned_stored_closing_kbbl": 500,
+              "planned_usable_closing_kbbl": 500,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 4,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 500,
+              "planned_stored_closing_kbbl": 420,
+              "planned_usable_closing_kbbl": 420,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 5,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 420,
+              "planned_stored_closing_kbbl": 340,
+              "planned_usable_closing_kbbl": 340,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 6,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 340,
+              "planned_stored_closing_kbbl": 260,
+              "planned_usable_closing_kbbl": 260,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 7,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 260,
+              "planned_stored_closing_kbbl": 180,
+              "planned_usable_closing_kbbl": 180,
+              "blocked_kbbl": 0
+            }
+          ],
+          "purchase_kbbl": 500,
+          "peak_planned_stored_kbbl": 580,
+          "minimum_usable_margin_kbbl": 0,
+          "storage_margin_kbbl": 20
+        }
+      }
+    },
+    "S1": {
+      "data_status": "SYNTHETIC_NOT_COMPANY_DATA",
+      "conditions": {
+        "delay_days": 1,
+        "additional_cost": 0,
+        "b_premium": 3,
+        "base_price": 72,
+        "early_premium": 13,
+        "early_limit": 160,
+        "early_lot": 80,
+        "b_available": true,
+        "b_partial": false,
+        "b_partial_limit": 160,
+        "b_partial_lot": 80,
+        "split_fee_kusd": 0,
+        "quality_hold_days": 0,
+        "low_compatible": true
+      },
+      "unavailable": [],
+      "winners": [
+        "C80"
+      ],
+      "best_cost_kusd": 37040,
+      "plans": {
+        "A": {
+          "status": "INFEASIBLE",
+          "cost_kusd": 36000,
+          "violations": [
+            {
+              "day": 3,
+              "type": "usable_floor"
+            }
+          ],
+          "min_planned_usable_kbbl": 0,
+          "ledger": [
+            {
+              "day": 1,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 2,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 3,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 80,
+              "planned_stored_closing_kbbl": 0,
+              "planned_usable_closing_kbbl": 0,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 4,
+              "arrivals_kbbl": 500,
+              "released_kbbl": 500,
+              "planned_stored_before_use_kbbl": 500,
+              "planned_stored_closing_kbbl": 420,
+              "planned_usable_closing_kbbl": 420,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 5,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 420,
+              "planned_stored_closing_kbbl": 340,
+              "planned_usable_closing_kbbl": 340,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 6,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 340,
+              "planned_stored_closing_kbbl": 260,
+              "planned_usable_closing_kbbl": 260,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 7,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 260,
+              "planned_stored_closing_kbbl": 180,
+              "planned_usable_closing_kbbl": 180,
+              "blocked_kbbl": 0
+            }
+          ],
+          "purchase_kbbl": 500,
+          "peak_planned_stored_kbbl": 500,
+          "minimum_usable_margin_kbbl": -80,
+          "storage_margin_kbbl": 100
+        },
+        "B": {
+          "status": "FEASIBLE_UNDER_ASSUMPTIONS",
+          "cost_kusd": 37500,
+          "violations": [],
+          "min_planned_usable_kbbl": 80,
+          "ledger": [
+            {
+              "day": 1,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 2,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 3,
+              "arrivals_kbbl": 500,
+              "released_kbbl": 500,
+              "planned_stored_before_use_kbbl": 580,
+              "planned_stored_closing_kbbl": 500,
+              "planned_usable_closing_kbbl": 500,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 4,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 500,
+              "planned_stored_closing_kbbl": 420,
+              "planned_usable_closing_kbbl": 420,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 5,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 420,
+              "planned_stored_closing_kbbl": 340,
+              "planned_usable_closing_kbbl": 340,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 6,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 340,
+              "planned_stored_closing_kbbl": 260,
+              "planned_usable_closing_kbbl": 260,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 7,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 260,
+              "planned_stored_closing_kbbl": 180,
+              "planned_usable_closing_kbbl": 180,
+              "blocked_kbbl": 0
+            }
+          ],
+          "purchase_kbbl": 500,
+          "peak_planned_stored_kbbl": 580,
+          "minimum_usable_margin_kbbl": 0,
+          "storage_margin_kbbl": 20
+        },
+        "C80": {
+          "status": "FEASIBLE_UNDER_ASSUMPTIONS",
+          "cost_kusd": 37040,
+          "violations": [],
+          "min_planned_usable_kbbl": 80,
+          "ledger": [
+            {
+              "day": 1,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 2,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 3,
+              "arrivals_kbbl": 80,
+              "released_kbbl": 80,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 4,
+              "arrivals_kbbl": 420,
+              "released_kbbl": 420,
+              "planned_stored_before_use_kbbl": 500,
+              "planned_stored_closing_kbbl": 420,
+              "planned_usable_closing_kbbl": 420,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 5,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 420,
+              "planned_stored_closing_kbbl": 340,
+              "planned_usable_closing_kbbl": 340,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 6,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 340,
+              "planned_stored_closing_kbbl": 260,
+              "planned_usable_closing_kbbl": 260,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 7,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 260,
+              "planned_stored_closing_kbbl": 180,
+              "planned_usable_closing_kbbl": 180,
+              "blocked_kbbl": 0
+            }
+          ],
+          "purchase_kbbl": 500,
+          "peak_planned_stored_kbbl": 500,
+          "minimum_usable_margin_kbbl": 0,
+          "storage_margin_kbbl": 100
+        },
+        "C160": {
+          "status": "FEASIBLE_UNDER_ASSUMPTIONS",
+          "cost_kusd": 38080,
+          "violations": [],
+          "min_planned_usable_kbbl": 80,
+          "ledger": [
+            {
+              "day": 1,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 2,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 3,
+              "arrivals_kbbl": 160,
+              "released_kbbl": 160,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 4,
+              "arrivals_kbbl": 340,
+              "released_kbbl": 340,
+              "planned_stored_before_use_kbbl": 500,
+              "planned_stored_closing_kbbl": 420,
+              "planned_usable_closing_kbbl": 420,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 5,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 420,
+              "planned_stored_closing_kbbl": 340,
+              "planned_usable_closing_kbbl": 340,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 6,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 340,
+              "planned_stored_closing_kbbl": 260,
+              "planned_usable_closing_kbbl": 260,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 7,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 260,
+              "planned_stored_closing_kbbl": 180,
+              "planned_usable_closing_kbbl": 180,
+              "blocked_kbbl": 0
+            }
+          ],
+          "purchase_kbbl": 500,
+          "peak_planned_stored_kbbl": 500,
+          "minimum_usable_margin_kbbl": 0,
+          "storage_margin_kbbl": 100
+        }
+      }
+    },
+    "S2": {
+      "data_status": "SYNTHETIC_NOT_COMPANY_DATA",
+      "conditions": {
+        "delay_days": 2,
+        "additional_cost": 0,
+        "b_premium": 3,
+        "base_price": 72,
+        "early_premium": 13,
+        "early_limit": 160,
+        "early_lot": 80,
+        "b_available": true,
+        "b_partial": false,
+        "b_partial_limit": 160,
+        "b_partial_lot": 80,
+        "split_fee_kusd": 0,
+        "quality_hold_days": 0,
+        "low_compatible": true
+      },
+      "unavailable": [],
+      "winners": [
+        "B"
+      ],
+      "best_cost_kusd": 37500,
+      "plans": {
+        "A": {
+          "status": "INFEASIBLE",
+          "cost_kusd": 36000,
+          "violations": [
+            {
+              "day": 3,
+              "type": "usable_floor"
+            },
+            {
+              "day": 4,
+              "type": "usable_floor"
+            }
+          ],
+          "min_planned_usable_kbbl": -80,
+          "ledger": [
+            {
+              "day": 1,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 2,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 3,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 80,
+              "planned_stored_closing_kbbl": 0,
+              "planned_usable_closing_kbbl": 0,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 4,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 0,
+              "planned_stored_closing_kbbl": -80,
+              "planned_usable_closing_kbbl": -80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 5,
+              "arrivals_kbbl": 500,
+              "released_kbbl": 500,
+              "planned_stored_before_use_kbbl": 420,
+              "planned_stored_closing_kbbl": 340,
+              "planned_usable_closing_kbbl": 340,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 6,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 340,
+              "planned_stored_closing_kbbl": 260,
+              "planned_usable_closing_kbbl": 260,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 7,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 260,
+              "planned_stored_closing_kbbl": 180,
+              "planned_usable_closing_kbbl": 180,
+              "blocked_kbbl": 0
+            }
+          ],
+          "purchase_kbbl": 500,
+          "peak_planned_stored_kbbl": 420,
+          "minimum_usable_margin_kbbl": -160,
+          "storage_margin_kbbl": 180
+        },
+        "B": {
+          "status": "FEASIBLE_UNDER_ASSUMPTIONS",
+          "cost_kusd": 37500,
+          "violations": [],
+          "min_planned_usable_kbbl": 80,
+          "ledger": [
+            {
+              "day": 1,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 2,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 3,
+              "arrivals_kbbl": 500,
+              "released_kbbl": 500,
+              "planned_stored_before_use_kbbl": 580,
+              "planned_stored_closing_kbbl": 500,
+              "planned_usable_closing_kbbl": 500,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 4,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 500,
+              "planned_stored_closing_kbbl": 420,
+              "planned_usable_closing_kbbl": 420,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 5,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 420,
+              "planned_stored_closing_kbbl": 340,
+              "planned_usable_closing_kbbl": 340,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 6,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 340,
+              "planned_stored_closing_kbbl": 260,
+              "planned_usable_closing_kbbl": 260,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 7,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 260,
+              "planned_stored_closing_kbbl": 180,
+              "planned_usable_closing_kbbl": 180,
+              "blocked_kbbl": 0
+            }
+          ],
+          "purchase_kbbl": 500,
+          "peak_planned_stored_kbbl": 580,
+          "minimum_usable_margin_kbbl": 0,
+          "storage_margin_kbbl": 20
+        },
+        "C80": {
+          "status": "INFEASIBLE",
+          "cost_kusd": 37040,
+          "violations": [
+            {
+              "day": 4,
+              "type": "usable_floor"
+            }
+          ],
+          "min_planned_usable_kbbl": 0,
+          "ledger": [
+            {
+              "day": 1,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 2,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 3,
+              "arrivals_kbbl": 80,
+              "released_kbbl": 80,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 4,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 80,
+              "planned_stored_closing_kbbl": 0,
+              "planned_usable_closing_kbbl": 0,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 5,
+              "arrivals_kbbl": 420,
+              "released_kbbl": 420,
+              "planned_stored_before_use_kbbl": 420,
+              "planned_stored_closing_kbbl": 340,
+              "planned_usable_closing_kbbl": 340,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 6,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 340,
+              "planned_stored_closing_kbbl": 260,
+              "planned_usable_closing_kbbl": 260,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 7,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 260,
+              "planned_stored_closing_kbbl": 180,
+              "planned_usable_closing_kbbl": 180,
+              "blocked_kbbl": 0
+            }
+          ],
+          "purchase_kbbl": 500,
+          "peak_planned_stored_kbbl": 420,
+          "minimum_usable_margin_kbbl": -80,
+          "storage_margin_kbbl": 180
+        },
+        "C160": {
+          "status": "FEASIBLE_UNDER_ASSUMPTIONS",
+          "cost_kusd": 38080,
+          "violations": [],
+          "min_planned_usable_kbbl": 80,
+          "ledger": [
+            {
+              "day": 1,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 2,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 3,
+              "arrivals_kbbl": 160,
+              "released_kbbl": 160,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 4,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 5,
+              "arrivals_kbbl": 340,
+              "released_kbbl": 340,
+              "planned_stored_before_use_kbbl": 420,
+              "planned_stored_closing_kbbl": 340,
+              "planned_usable_closing_kbbl": 340,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 6,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 340,
+              "planned_stored_closing_kbbl": 260,
+              "planned_usable_closing_kbbl": 260,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 7,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 260,
+              "planned_stored_closing_kbbl": 180,
+              "planned_usable_closing_kbbl": 180,
+              "blocked_kbbl": 0
+            }
+          ],
+          "purchase_kbbl": 500,
+          "peak_planned_stored_kbbl": 420,
+          "minimum_usable_margin_kbbl": 0,
+          "storage_margin_kbbl": 180
+        }
+      }
+    },
+    "S3": {
+      "data_status": "SYNTHETIC_NOT_COMPANY_DATA",
+      "conditions": {
+        "delay_days": 1,
+        "additional_cost": 2,
+        "b_premium": 3,
+        "base_price": 72,
+        "early_premium": 13,
+        "early_limit": 160,
+        "early_lot": 80,
+        "b_available": true,
+        "b_partial": false,
+        "b_partial_limit": 160,
+        "b_partial_lot": 80,
+        "split_fee_kusd": 0,
+        "quality_hold_days": 0,
+        "low_compatible": true
+      },
+      "unavailable": [],
+      "winners": [
+        "B"
+      ],
+      "best_cost_kusd": 37500,
+      "plans": {
+        "A": {
+          "status": "INFEASIBLE",
+          "cost_kusd": 37000,
+          "violations": [
+            {
+              "day": 3,
+              "type": "usable_floor"
+            }
+          ],
+          "min_planned_usable_kbbl": 0,
+          "ledger": [
+            {
+              "day": 1,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 2,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 3,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 80,
+              "planned_stored_closing_kbbl": 0,
+              "planned_usable_closing_kbbl": 0,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 4,
+              "arrivals_kbbl": 500,
+              "released_kbbl": 500,
+              "planned_stored_before_use_kbbl": 500,
+              "planned_stored_closing_kbbl": 420,
+              "planned_usable_closing_kbbl": 420,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 5,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 420,
+              "planned_stored_closing_kbbl": 340,
+              "planned_usable_closing_kbbl": 340,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 6,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 340,
+              "planned_stored_closing_kbbl": 260,
+              "planned_usable_closing_kbbl": 260,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 7,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 260,
+              "planned_stored_closing_kbbl": 180,
+              "planned_usable_closing_kbbl": 180,
+              "blocked_kbbl": 0
+            }
+          ],
+          "purchase_kbbl": 500,
+          "peak_planned_stored_kbbl": 500,
+          "minimum_usable_margin_kbbl": -80,
+          "storage_margin_kbbl": 100
+        },
+        "B": {
+          "status": "FEASIBLE_UNDER_ASSUMPTIONS",
+          "cost_kusd": 37500,
+          "violations": [],
+          "min_planned_usable_kbbl": 80,
+          "ledger": [
+            {
+              "day": 1,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 2,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 3,
+              "arrivals_kbbl": 500,
+              "released_kbbl": 500,
+              "planned_stored_before_use_kbbl": 580,
+              "planned_stored_closing_kbbl": 500,
+              "planned_usable_closing_kbbl": 500,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 4,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 500,
+              "planned_stored_closing_kbbl": 420,
+              "planned_usable_closing_kbbl": 420,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 5,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 420,
+              "planned_stored_closing_kbbl": 340,
+              "planned_usable_closing_kbbl": 340,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 6,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 340,
+              "planned_stored_closing_kbbl": 260,
+              "planned_usable_closing_kbbl": 260,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 7,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 260,
+              "planned_stored_closing_kbbl": 180,
+              "planned_usable_closing_kbbl": 180,
+              "blocked_kbbl": 0
+            }
+          ],
+          "purchase_kbbl": 500,
+          "peak_planned_stored_kbbl": 580,
+          "minimum_usable_margin_kbbl": 0,
+          "storage_margin_kbbl": 20
+        },
+        "C80": {
+          "status": "FEASIBLE_UNDER_ASSUMPTIONS",
+          "cost_kusd": 37880,
+          "violations": [],
+          "min_planned_usable_kbbl": 80,
+          "ledger": [
+            {
+              "day": 1,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 2,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 3,
+              "arrivals_kbbl": 80,
+              "released_kbbl": 80,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 4,
+              "arrivals_kbbl": 420,
+              "released_kbbl": 420,
+              "planned_stored_before_use_kbbl": 500,
+              "planned_stored_closing_kbbl": 420,
+              "planned_usable_closing_kbbl": 420,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 5,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 420,
+              "planned_stored_closing_kbbl": 340,
+              "planned_usable_closing_kbbl": 340,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 6,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 340,
+              "planned_stored_closing_kbbl": 260,
+              "planned_usable_closing_kbbl": 260,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 7,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 260,
+              "planned_stored_closing_kbbl": 180,
+              "planned_usable_closing_kbbl": 180,
+              "blocked_kbbl": 0
+            }
+          ],
+          "purchase_kbbl": 500,
+          "peak_planned_stored_kbbl": 500,
+          "minimum_usable_margin_kbbl": 0,
+          "storage_margin_kbbl": 100
+        },
+        "C160": {
+          "status": "FEASIBLE_UNDER_ASSUMPTIONS",
+          "cost_kusd": 38760,
+          "violations": [],
+          "min_planned_usable_kbbl": 80,
+          "ledger": [
+            {
+              "day": 1,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 2,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 3,
+              "arrivals_kbbl": 160,
+              "released_kbbl": 160,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 4,
+              "arrivals_kbbl": 340,
+              "released_kbbl": 340,
+              "planned_stored_before_use_kbbl": 500,
+              "planned_stored_closing_kbbl": 420,
+              "planned_usable_closing_kbbl": 420,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 5,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 420,
+              "planned_stored_closing_kbbl": 340,
+              "planned_usable_closing_kbbl": 340,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 6,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 340,
+              "planned_stored_closing_kbbl": 260,
+              "planned_usable_closing_kbbl": 260,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 7,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 260,
+              "planned_stored_closing_kbbl": 180,
+              "planned_usable_closing_kbbl": 180,
+              "blocked_kbbl": 0
+            }
+          ],
+          "purchase_kbbl": 500,
+          "peak_planned_stored_kbbl": 500,
+          "minimum_usable_margin_kbbl": 0,
+          "storage_margin_kbbl": 100
+        }
+      }
+    },
+    "S4": {
+      "data_status": "SYNTHETIC_NOT_COMPANY_DATA",
+      "conditions": {
+        "delay_days": 3,
+        "additional_cost": 0,
+        "b_premium": 3,
+        "base_price": 72,
+        "early_premium": 13,
+        "early_limit": 160,
+        "early_lot": 80,
+        "b_available": false,
+        "b_partial": false,
+        "b_partial_limit": 160,
+        "b_partial_lot": 80,
+        "split_fee_kusd": 0,
+        "quality_hold_days": 0,
+        "low_compatible": true
+      },
+      "unavailable": [
+        "B"
+      ],
+      "winners": [],
+      "best_cost_kusd": null,
+      "plans": {
+        "A": {
+          "status": "INFEASIBLE",
+          "cost_kusd": 36000,
+          "violations": [
+            {
+              "day": 3,
+              "type": "usable_floor"
+            },
+            {
+              "day": 4,
+              "type": "usable_floor"
+            },
+            {
+              "day": 5,
+              "type": "usable_floor"
+            }
+          ],
+          "min_planned_usable_kbbl": -160,
+          "ledger": [
+            {
+              "day": 1,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 2,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 3,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 80,
+              "planned_stored_closing_kbbl": 0,
+              "planned_usable_closing_kbbl": 0,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 4,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 0,
+              "planned_stored_closing_kbbl": -80,
+              "planned_usable_closing_kbbl": -80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 5,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": -80,
+              "planned_stored_closing_kbbl": -160,
+              "planned_usable_closing_kbbl": -160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 6,
+              "arrivals_kbbl": 500,
+              "released_kbbl": 500,
+              "planned_stored_before_use_kbbl": 340,
+              "planned_stored_closing_kbbl": 260,
+              "planned_usable_closing_kbbl": 260,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 7,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 260,
+              "planned_stored_closing_kbbl": 180,
+              "planned_usable_closing_kbbl": 180,
+              "blocked_kbbl": 0
+            }
+          ],
+          "purchase_kbbl": 500,
+          "peak_planned_stored_kbbl": 340,
+          "minimum_usable_margin_kbbl": -240,
+          "storage_margin_kbbl": 260
+        },
+        "C80": {
+          "status": "INFEASIBLE",
+          "cost_kusd": 37040,
+          "violations": [
+            {
+              "day": 4,
+              "type": "usable_floor"
+            },
+            {
+              "day": 5,
+              "type": "usable_floor"
+            }
+          ],
+          "min_planned_usable_kbbl": -80,
+          "ledger": [
+            {
+              "day": 1,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 2,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 3,
+              "arrivals_kbbl": 80,
+              "released_kbbl": 80,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 4,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 80,
+              "planned_stored_closing_kbbl": 0,
+              "planned_usable_closing_kbbl": 0,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 5,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 0,
+              "planned_stored_closing_kbbl": -80,
+              "planned_usable_closing_kbbl": -80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 6,
+              "arrivals_kbbl": 420,
+              "released_kbbl": 420,
+              "planned_stored_before_use_kbbl": 340,
+              "planned_stored_closing_kbbl": 260,
+              "planned_usable_closing_kbbl": 260,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 7,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 260,
+              "planned_stored_closing_kbbl": 180,
+              "planned_usable_closing_kbbl": 180,
+              "blocked_kbbl": 0
+            }
+          ],
+          "purchase_kbbl": 500,
+          "peak_planned_stored_kbbl": 340,
+          "minimum_usable_margin_kbbl": -160,
+          "storage_margin_kbbl": 260
+        },
+        "C160": {
+          "status": "INFEASIBLE",
+          "cost_kusd": 38080,
+          "violations": [
+            {
+              "day": 5,
+              "type": "usable_floor"
+            }
+          ],
+          "min_planned_usable_kbbl": 0,
+          "ledger": [
+            {
+              "day": 1,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 2,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 3,
+              "arrivals_kbbl": 160,
+              "released_kbbl": 160,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 4,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 5,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 80,
+              "planned_stored_closing_kbbl": 0,
+              "planned_usable_closing_kbbl": 0,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 6,
+              "arrivals_kbbl": 340,
+              "released_kbbl": 340,
+              "planned_stored_before_use_kbbl": 340,
+              "planned_stored_closing_kbbl": 260,
+              "planned_usable_closing_kbbl": 260,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 7,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 260,
+              "planned_stored_closing_kbbl": 180,
+              "planned_usable_closing_kbbl": 180,
+              "blocked_kbbl": 0
+            }
+          ],
+          "purchase_kbbl": 500,
+          "peak_planned_stored_kbbl": 340,
+          "minimum_usable_margin_kbbl": -80,
+          "storage_margin_kbbl": 260
+        }
+      }
+    },
+    "S5": {
+      "data_status": "SYNTHETIC_NOT_COMPANY_DATA",
+      "conditions": {
+        "delay_days": 2,
+        "additional_cost": 0,
+        "b_premium": 3,
+        "base_price": 72,
+        "early_premium": 13,
+        "early_limit": 160,
+        "early_lot": 80,
+        "b_available": true,
+        "b_partial": false,
+        "b_partial_limit": 160,
+        "b_partial_lot": 80,
+        "split_fee_kusd": 0,
+        "quality_hold_days": 0,
+        "low_compatible": true,
+        "capacity": 450
+      },
+      "unavailable": [],
+      "winners": [
+        "C160"
+      ],
+      "best_cost_kusd": 38080,
+      "plans": {
+        "A": {
+          "status": "INFEASIBLE",
+          "cost_kusd": 36000,
+          "violations": [
+            {
+              "day": 3,
+              "type": "usable_floor"
+            },
+            {
+              "day": 4,
+              "type": "usable_floor"
+            }
+          ],
+          "min_planned_usable_kbbl": -80,
+          "ledger": [
+            {
+              "day": 1,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 2,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 3,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 80,
+              "planned_stored_closing_kbbl": 0,
+              "planned_usable_closing_kbbl": 0,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 4,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 0,
+              "planned_stored_closing_kbbl": -80,
+              "planned_usable_closing_kbbl": -80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 5,
+              "arrivals_kbbl": 500,
+              "released_kbbl": 500,
+              "planned_stored_before_use_kbbl": 420,
+              "planned_stored_closing_kbbl": 340,
+              "planned_usable_closing_kbbl": 340,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 6,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 340,
+              "planned_stored_closing_kbbl": 260,
+              "planned_usable_closing_kbbl": 260,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 7,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 260,
+              "planned_stored_closing_kbbl": 180,
+              "planned_usable_closing_kbbl": 180,
+              "blocked_kbbl": 0
+            }
+          ],
+          "purchase_kbbl": 500,
+          "peak_planned_stored_kbbl": 420,
+          "minimum_usable_margin_kbbl": -160,
+          "storage_margin_kbbl": 30
+        },
+        "B": {
+          "status": "INFEASIBLE",
+          "cost_kusd": 37500,
+          "violations": [
+            {
+              "day": 3,
+              "type": "receipt_capacity"
+            },
+            {
+              "day": 4,
+              "type": "receipt_capacity"
+            }
+          ],
+          "min_planned_usable_kbbl": 80,
+          "ledger": [
+            {
+              "day": 1,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 2,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 3,
+              "arrivals_kbbl": 500,
+              "released_kbbl": 500,
+              "planned_stored_before_use_kbbl": 580,
+              "planned_stored_closing_kbbl": 500,
+              "planned_usable_closing_kbbl": 500,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 4,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 500,
+              "planned_stored_closing_kbbl": 420,
+              "planned_usable_closing_kbbl": 420,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 5,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 420,
+              "planned_stored_closing_kbbl": 340,
+              "planned_usable_closing_kbbl": 340,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 6,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 340,
+              "planned_stored_closing_kbbl": 260,
+              "planned_usable_closing_kbbl": 260,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 7,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 260,
+              "planned_stored_closing_kbbl": 180,
+              "planned_usable_closing_kbbl": 180,
+              "blocked_kbbl": 0
+            }
+          ],
+          "purchase_kbbl": 500,
+          "peak_planned_stored_kbbl": 580,
+          "minimum_usable_margin_kbbl": 0,
+          "storage_margin_kbbl": -130
+        },
+        "C80": {
+          "status": "INFEASIBLE",
+          "cost_kusd": 37040,
+          "violations": [
+            {
+              "day": 4,
+              "type": "usable_floor"
+            }
+          ],
+          "min_planned_usable_kbbl": 0,
+          "ledger": [
+            {
+              "day": 1,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 2,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 3,
+              "arrivals_kbbl": 80,
+              "released_kbbl": 80,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 4,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 80,
+              "planned_stored_closing_kbbl": 0,
+              "planned_usable_closing_kbbl": 0,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 5,
+              "arrivals_kbbl": 420,
+              "released_kbbl": 420,
+              "planned_stored_before_use_kbbl": 420,
+              "planned_stored_closing_kbbl": 340,
+              "planned_usable_closing_kbbl": 340,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 6,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 340,
+              "planned_stored_closing_kbbl": 260,
+              "planned_usable_closing_kbbl": 260,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 7,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 260,
+              "planned_stored_closing_kbbl": 180,
+              "planned_usable_closing_kbbl": 180,
+              "blocked_kbbl": 0
+            }
+          ],
+          "purchase_kbbl": 500,
+          "peak_planned_stored_kbbl": 420,
+          "minimum_usable_margin_kbbl": -80,
+          "storage_margin_kbbl": 30
+        },
+        "C160": {
+          "status": "FEASIBLE_UNDER_ASSUMPTIONS",
+          "cost_kusd": 38080,
+          "violations": [],
+          "min_planned_usable_kbbl": 80,
+          "ledger": [
+            {
+              "day": 1,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 2,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 3,
+              "arrivals_kbbl": 160,
+              "released_kbbl": 160,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 4,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 5,
+              "arrivals_kbbl": 340,
+              "released_kbbl": 340,
+              "planned_stored_before_use_kbbl": 420,
+              "planned_stored_closing_kbbl": 340,
+              "planned_usable_closing_kbbl": 340,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 6,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 340,
+              "planned_stored_closing_kbbl": 260,
+              "planned_usable_closing_kbbl": 260,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 7,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 260,
+              "planned_stored_closing_kbbl": 180,
+              "planned_usable_closing_kbbl": 180,
+              "blocked_kbbl": 0
+            }
+          ],
+          "purchase_kbbl": 500,
+          "peak_planned_stored_kbbl": 420,
+          "minimum_usable_margin_kbbl": 0,
+          "storage_margin_kbbl": 30
+        }
+      }
+    },
+    "S6": {
+      "data_status": "SYNTHETIC_NOT_COMPANY_DATA",
+      "conditions": {
+        "delay_days": 0,
+        "additional_cost": 3,
+        "b_premium": 3,
+        "base_price": 72,
+        "early_premium": 13,
+        "early_limit": 160,
+        "early_lot": 80,
+        "b_available": true,
+        "b_partial": false,
+        "b_partial_limit": 160,
+        "b_partial_lot": 80,
+        "split_fee_kusd": 0,
+        "quality_hold_days": 0,
+        "low_compatible": true
+      },
+      "unavailable": [],
+      "winners": [
+        "A",
+        "B"
+      ],
+      "best_cost_kusd": 37500,
+      "plans": {
+        "A": {
+          "status": "FEASIBLE_UNDER_ASSUMPTIONS",
+          "cost_kusd": 37500,
+          "violations": [],
+          "min_planned_usable_kbbl": 80,
+          "ledger": [
+            {
+              "day": 1,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 2,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 3,
+              "arrivals_kbbl": 500,
+              "released_kbbl": 500,
+              "planned_stored_before_use_kbbl": 580,
+              "planned_stored_closing_kbbl": 500,
+              "planned_usable_closing_kbbl": 500,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 4,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 500,
+              "planned_stored_closing_kbbl": 420,
+              "planned_usable_closing_kbbl": 420,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 5,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 420,
+              "planned_stored_closing_kbbl": 340,
+              "planned_usable_closing_kbbl": 340,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 6,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 340,
+              "planned_stored_closing_kbbl": 260,
+              "planned_usable_closing_kbbl": 260,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 7,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 260,
+              "planned_stored_closing_kbbl": 180,
+              "planned_usable_closing_kbbl": 180,
+              "blocked_kbbl": 0
+            }
+          ],
+          "purchase_kbbl": 500,
+          "peak_planned_stored_kbbl": 580,
+          "minimum_usable_margin_kbbl": 0,
+          "storage_margin_kbbl": 20
+        },
+        "B": {
+          "status": "FEASIBLE_UNDER_ASSUMPTIONS",
+          "cost_kusd": 37500,
+          "violations": [],
+          "min_planned_usable_kbbl": 80,
+          "ledger": [
+            {
+              "day": 1,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 2,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 3,
+              "arrivals_kbbl": 500,
+              "released_kbbl": 500,
+              "planned_stored_before_use_kbbl": 580,
+              "planned_stored_closing_kbbl": 500,
+              "planned_usable_closing_kbbl": 500,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 4,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 500,
+              "planned_stored_closing_kbbl": 420,
+              "planned_usable_closing_kbbl": 420,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 5,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 420,
+              "planned_stored_closing_kbbl": 340,
+              "planned_usable_closing_kbbl": 340,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 6,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 340,
+              "planned_stored_closing_kbbl": 260,
+              "planned_usable_closing_kbbl": 260,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 7,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 260,
+              "planned_stored_closing_kbbl": 180,
+              "planned_usable_closing_kbbl": 180,
+              "blocked_kbbl": 0
+            }
+          ],
+          "purchase_kbbl": 500,
+          "peak_planned_stored_kbbl": 580,
+          "minimum_usable_margin_kbbl": 0,
+          "storage_margin_kbbl": 20
+        },
+        "C80": {
+          "status": "FEASIBLE_UNDER_ASSUMPTIONS",
+          "cost_kusd": 38300,
+          "violations": [],
+          "min_planned_usable_kbbl": 80,
+          "ledger": [
+            {
+              "day": 1,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 2,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 3,
+              "arrivals_kbbl": 500,
+              "released_kbbl": 500,
+              "planned_stored_before_use_kbbl": 580,
+              "planned_stored_closing_kbbl": 500,
+              "planned_usable_closing_kbbl": 500,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 4,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 500,
+              "planned_stored_closing_kbbl": 420,
+              "planned_usable_closing_kbbl": 420,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 5,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 420,
+              "planned_stored_closing_kbbl": 340,
+              "planned_usable_closing_kbbl": 340,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 6,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 340,
+              "planned_stored_closing_kbbl": 260,
+              "planned_usable_closing_kbbl": 260,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 7,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 260,
+              "planned_stored_closing_kbbl": 180,
+              "planned_usable_closing_kbbl": 180,
+              "blocked_kbbl": 0
+            }
+          ],
+          "purchase_kbbl": 500,
+          "peak_planned_stored_kbbl": 580,
+          "minimum_usable_margin_kbbl": 0,
+          "storage_margin_kbbl": 20
+        },
+        "C160": {
+          "status": "FEASIBLE_UNDER_ASSUMPTIONS",
+          "cost_kusd": 39100,
+          "violations": [],
+          "min_planned_usable_kbbl": 80,
+          "ledger": [
+            {
+              "day": 1,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 2,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 3,
+              "arrivals_kbbl": 500,
+              "released_kbbl": 500,
+              "planned_stored_before_use_kbbl": 580,
+              "planned_stored_closing_kbbl": 500,
+              "planned_usable_closing_kbbl": 500,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 4,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 500,
+              "planned_stored_closing_kbbl": 420,
+              "planned_usable_closing_kbbl": 420,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 5,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 420,
+              "planned_stored_closing_kbbl": 340,
+              "planned_usable_closing_kbbl": 340,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 6,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 340,
+              "planned_stored_closing_kbbl": 260,
+              "planned_usable_closing_kbbl": 260,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 7,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 260,
+              "planned_stored_closing_kbbl": 180,
+              "planned_usable_closing_kbbl": 180,
+              "blocked_kbbl": 0
+            }
+          ],
+          "purchase_kbbl": 500,
+          "peak_planned_stored_kbbl": 580,
+          "minimum_usable_margin_kbbl": 0,
+          "storage_margin_kbbl": 20
+        }
+      }
+    },
+    "S7": {
+      "data_status": "SYNTHETIC_NOT_COMPANY_DATA",
+      "conditions": {
+        "delay_days": 0,
+        "additional_cost": 0,
+        "b_premium": 3,
+        "base_price": 72,
+        "early_premium": 13,
+        "early_limit": 160,
+        "early_lot": 80,
+        "b_available": true,
+        "b_partial": false,
+        "b_partial_limit": 160,
+        "b_partial_lot": 80,
+        "split_fee_kusd": 0,
+        "quality_hold_days": 2,
+        "low_compatible": true
+      },
+      "unavailable": [],
+      "winners": [
+        "B"
+      ],
+      "best_cost_kusd": 37500,
+      "plans": {
+        "A": {
+          "status": "INFEASIBLE",
+          "cost_kusd": 36000,
+          "violations": [
+            {
+              "day": 3,
+              "type": "usable_floor"
+            },
+            {
+              "day": 4,
+              "type": "usable_floor"
+            }
+          ],
+          "min_planned_usable_kbbl": -80,
+          "ledger": [
+            {
+              "day": 1,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 2,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 3,
+              "arrivals_kbbl": 500,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 580,
+              "planned_stored_closing_kbbl": 500,
+              "planned_usable_closing_kbbl": 0,
+              "blocked_kbbl": 500
+            },
+            {
+              "day": 4,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 500,
+              "planned_stored_closing_kbbl": 420,
+              "planned_usable_closing_kbbl": -80,
+              "blocked_kbbl": 500
+            },
+            {
+              "day": 5,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 500,
+              "planned_stored_before_use_kbbl": 420,
+              "planned_stored_closing_kbbl": 340,
+              "planned_usable_closing_kbbl": 340,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 6,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 340,
+              "planned_stored_closing_kbbl": 260,
+              "planned_usable_closing_kbbl": 260,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 7,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 260,
+              "planned_stored_closing_kbbl": 180,
+              "planned_usable_closing_kbbl": 180,
+              "blocked_kbbl": 0
+            }
+          ],
+          "purchase_kbbl": 500,
+          "peak_planned_stored_kbbl": 580,
+          "minimum_usable_margin_kbbl": -160,
+          "storage_margin_kbbl": 20
+        },
+        "B": {
+          "status": "FEASIBLE_UNDER_ASSUMPTIONS",
+          "cost_kusd": 37500,
+          "violations": [],
+          "min_planned_usable_kbbl": 80,
+          "ledger": [
+            {
+              "day": 1,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 2,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 3,
+              "arrivals_kbbl": 500,
+              "released_kbbl": 500,
+              "planned_stored_before_use_kbbl": 580,
+              "planned_stored_closing_kbbl": 500,
+              "planned_usable_closing_kbbl": 500,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 4,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 500,
+              "planned_stored_closing_kbbl": 420,
+              "planned_usable_closing_kbbl": 420,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 5,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 420,
+              "planned_stored_closing_kbbl": 340,
+              "planned_usable_closing_kbbl": 340,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 6,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 340,
+              "planned_stored_closing_kbbl": 260,
+              "planned_usable_closing_kbbl": 260,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 7,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 260,
+              "planned_stored_closing_kbbl": 180,
+              "planned_usable_closing_kbbl": 180,
+              "blocked_kbbl": 0
+            }
+          ],
+          "purchase_kbbl": 500,
+          "peak_planned_stored_kbbl": 580,
+          "minimum_usable_margin_kbbl": 0,
+          "storage_margin_kbbl": 20
+        },
+        "C80": {
+          "status": "INFEASIBLE",
+          "cost_kusd": 37040,
+          "violations": [
+            {
+              "day": 4,
+              "type": "usable_floor"
+            }
+          ],
+          "min_planned_usable_kbbl": 0,
+          "ledger": [
+            {
+              "day": 1,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 2,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 3,
+              "arrivals_kbbl": 500,
+              "released_kbbl": 80,
+              "planned_stored_before_use_kbbl": 580,
+              "planned_stored_closing_kbbl": 500,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 420
+            },
+            {
+              "day": 4,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 500,
+              "planned_stored_closing_kbbl": 420,
+              "planned_usable_closing_kbbl": 0,
+              "blocked_kbbl": 420
+            },
+            {
+              "day": 5,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 420,
+              "planned_stored_before_use_kbbl": 420,
+              "planned_stored_closing_kbbl": 340,
+              "planned_usable_closing_kbbl": 340,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 6,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 340,
+              "planned_stored_closing_kbbl": 260,
+              "planned_usable_closing_kbbl": 260,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 7,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 260,
+              "planned_stored_closing_kbbl": 180,
+              "planned_usable_closing_kbbl": 180,
+              "blocked_kbbl": 0
+            }
+          ],
+          "purchase_kbbl": 500,
+          "peak_planned_stored_kbbl": 580,
+          "minimum_usable_margin_kbbl": -80,
+          "storage_margin_kbbl": 20
+        },
+        "C160": {
+          "status": "FEASIBLE_UNDER_ASSUMPTIONS",
+          "cost_kusd": 38080,
+          "violations": [],
+          "min_planned_usable_kbbl": 80,
+          "ledger": [
+            {
+              "day": 1,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 2,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 3,
+              "arrivals_kbbl": 500,
+              "released_kbbl": 160,
+              "planned_stored_before_use_kbbl": 580,
+              "planned_stored_closing_kbbl": 500,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 340
+            },
+            {
+              "day": 4,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 500,
+              "planned_stored_closing_kbbl": 420,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 340
+            },
+            {
+              "day": 5,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 340,
+              "planned_stored_before_use_kbbl": 420,
+              "planned_stored_closing_kbbl": 340,
+              "planned_usable_closing_kbbl": 340,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 6,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 340,
+              "planned_stored_closing_kbbl": 260,
+              "planned_usable_closing_kbbl": 260,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 7,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 260,
+              "planned_stored_closing_kbbl": 180,
+              "planned_usable_closing_kbbl": 180,
+              "blocked_kbbl": 0
+            }
+          ],
+          "purchase_kbbl": 500,
+          "peak_planned_stored_kbbl": 580,
+          "minimum_usable_margin_kbbl": 0,
+          "storage_margin_kbbl": 20
+        }
+      }
+    },
+    "S8": {
+      "data_status": "SYNTHETIC_NOT_COMPANY_DATA",
+      "conditions": {
+        "delay_days": 0,
+        "additional_cost": 0,
+        "b_premium": 3,
+        "base_price": 72,
+        "early_premium": 13,
+        "early_limit": 160,
+        "early_lot": 80,
+        "b_available": true,
+        "b_partial": false,
+        "b_partial_limit": 160,
+        "b_partial_lot": 80,
+        "split_fee_kusd": 0,
+        "quality_hold_days": 0,
+        "low_compatible": null
+      },
+      "unavailable": [],
+      "winners": [
+        "B"
+      ],
+      "best_cost_kusd": 37500,
+      "plans": {
+        "A": {
+          "status": "NEEDS_REVIEW",
+          "cost_kusd": 36000,
+          "violations": [],
+          "min_planned_usable_kbbl": 80,
+          "ledger": [
+            {
+              "day": 1,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 2,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 3,
+              "arrivals_kbbl": 500,
+              "released_kbbl": 500,
+              "planned_stored_before_use_kbbl": 580,
+              "planned_stored_closing_kbbl": 500,
+              "planned_usable_closing_kbbl": 500,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 4,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 500,
+              "planned_stored_closing_kbbl": 420,
+              "planned_usable_closing_kbbl": 420,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 5,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 420,
+              "planned_stored_closing_kbbl": 340,
+              "planned_usable_closing_kbbl": 340,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 6,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 340,
+              "planned_stored_closing_kbbl": 260,
+              "planned_usable_closing_kbbl": 260,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 7,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 260,
+              "planned_stored_closing_kbbl": 180,
+              "planned_usable_closing_kbbl": 180,
+              "blocked_kbbl": 0
+            }
+          ],
+          "purchase_kbbl": 500,
+          "peak_planned_stored_kbbl": 580,
+          "minimum_usable_margin_kbbl": 0,
+          "storage_margin_kbbl": 20
+        },
+        "B": {
+          "status": "FEASIBLE_UNDER_ASSUMPTIONS",
+          "cost_kusd": 37500,
+          "violations": [],
+          "min_planned_usable_kbbl": 80,
+          "ledger": [
+            {
+              "day": 1,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 2,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 3,
+              "arrivals_kbbl": 500,
+              "released_kbbl": 500,
+              "planned_stored_before_use_kbbl": 580,
+              "planned_stored_closing_kbbl": 500,
+              "planned_usable_closing_kbbl": 500,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 4,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 500,
+              "planned_stored_closing_kbbl": 420,
+              "planned_usable_closing_kbbl": 420,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 5,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 420,
+              "planned_stored_closing_kbbl": 340,
+              "planned_usable_closing_kbbl": 340,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 6,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 340,
+              "planned_stored_closing_kbbl": 260,
+              "planned_usable_closing_kbbl": 260,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 7,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 260,
+              "planned_stored_closing_kbbl": 180,
+              "planned_usable_closing_kbbl": 180,
+              "blocked_kbbl": 0
+            }
+          ],
+          "purchase_kbbl": 500,
+          "peak_planned_stored_kbbl": 580,
+          "minimum_usable_margin_kbbl": 0,
+          "storage_margin_kbbl": 20
+        },
+        "C80": {
+          "status": "NEEDS_REVIEW",
+          "cost_kusd": 37040,
+          "violations": [],
+          "min_planned_usable_kbbl": 80,
+          "ledger": [
+            {
+              "day": 1,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 2,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 3,
+              "arrivals_kbbl": 500,
+              "released_kbbl": 500,
+              "planned_stored_before_use_kbbl": 580,
+              "planned_stored_closing_kbbl": 500,
+              "planned_usable_closing_kbbl": 500,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 4,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 500,
+              "planned_stored_closing_kbbl": 420,
+              "planned_usable_closing_kbbl": 420,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 5,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 420,
+              "planned_stored_closing_kbbl": 340,
+              "planned_usable_closing_kbbl": 340,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 6,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 340,
+              "planned_stored_closing_kbbl": 260,
+              "planned_usable_closing_kbbl": 260,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 7,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 260,
+              "planned_stored_closing_kbbl": 180,
+              "planned_usable_closing_kbbl": 180,
+              "blocked_kbbl": 0
+            }
+          ],
+          "purchase_kbbl": 500,
+          "peak_planned_stored_kbbl": 580,
+          "minimum_usable_margin_kbbl": 0,
+          "storage_margin_kbbl": 20
+        },
+        "C160": {
+          "status": "NEEDS_REVIEW",
+          "cost_kusd": 38080,
+          "violations": [],
+          "min_planned_usable_kbbl": 80,
+          "ledger": [
+            {
+              "day": 1,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 2,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 3,
+              "arrivals_kbbl": 500,
+              "released_kbbl": 500,
+              "planned_stored_before_use_kbbl": 580,
+              "planned_stored_closing_kbbl": 500,
+              "planned_usable_closing_kbbl": 500,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 4,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 500,
+              "planned_stored_closing_kbbl": 420,
+              "planned_usable_closing_kbbl": 420,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 5,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 420,
+              "planned_stored_closing_kbbl": 340,
+              "planned_usable_closing_kbbl": 340,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 6,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 340,
+              "planned_stored_closing_kbbl": 260,
+              "planned_usable_closing_kbbl": 260,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 7,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 260,
+              "planned_stored_closing_kbbl": 180,
+              "planned_usable_closing_kbbl": 180,
+              "blocked_kbbl": 0
+            }
+          ],
+          "purchase_kbbl": 500,
+          "peak_planned_stored_kbbl": 580,
+          "minimum_usable_margin_kbbl": 0,
+          "storage_margin_kbbl": 20
+        }
+      }
+    },
+    "S9": {
+      "data_status": "SYNTHETIC_NOT_COMPANY_DATA",
+      "conditions": {
+        "delay_days": 1,
+        "additional_cost": 0,
+        "b_premium": 3,
+        "base_price": 72,
+        "early_premium": 13,
+        "early_limit": 160,
+        "early_lot": 80,
+        "b_available": true,
+        "b_partial": true,
+        "b_partial_limit": 160,
+        "b_partial_lot": 80,
+        "split_fee_kusd": 0,
+        "quality_hold_days": 0,
+        "low_compatible": true
+      },
+      "unavailable": [],
+      "winners": [
+        "D80"
+      ],
+      "best_cost_kusd": 36240,
+      "plans": {
+        "A": {
+          "status": "INFEASIBLE",
+          "cost_kusd": 36000,
+          "violations": [
+            {
+              "day": 3,
+              "type": "usable_floor"
+            }
+          ],
+          "min_planned_usable_kbbl": 0,
+          "ledger": [
+            {
+              "day": 1,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 2,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 3,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 80,
+              "planned_stored_closing_kbbl": 0,
+              "planned_usable_closing_kbbl": 0,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 4,
+              "arrivals_kbbl": 500,
+              "released_kbbl": 500,
+              "planned_stored_before_use_kbbl": 500,
+              "planned_stored_closing_kbbl": 420,
+              "planned_usable_closing_kbbl": 420,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 5,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 420,
+              "planned_stored_closing_kbbl": 340,
+              "planned_usable_closing_kbbl": 340,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 6,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 340,
+              "planned_stored_closing_kbbl": 260,
+              "planned_usable_closing_kbbl": 260,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 7,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 260,
+              "planned_stored_closing_kbbl": 180,
+              "planned_usable_closing_kbbl": 180,
+              "blocked_kbbl": 0
+            }
+          ],
+          "purchase_kbbl": 500,
+          "peak_planned_stored_kbbl": 500,
+          "minimum_usable_margin_kbbl": -80,
+          "storage_margin_kbbl": 100
+        },
+        "B": {
+          "status": "FEASIBLE_UNDER_ASSUMPTIONS",
+          "cost_kusd": 37500,
+          "violations": [],
+          "min_planned_usable_kbbl": 80,
+          "ledger": [
+            {
+              "day": 1,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 2,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 3,
+              "arrivals_kbbl": 500,
+              "released_kbbl": 500,
+              "planned_stored_before_use_kbbl": 580,
+              "planned_stored_closing_kbbl": 500,
+              "planned_usable_closing_kbbl": 500,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 4,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 500,
+              "planned_stored_closing_kbbl": 420,
+              "planned_usable_closing_kbbl": 420,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 5,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 420,
+              "planned_stored_closing_kbbl": 340,
+              "planned_usable_closing_kbbl": 340,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 6,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 340,
+              "planned_stored_closing_kbbl": 260,
+              "planned_usable_closing_kbbl": 260,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 7,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 260,
+              "planned_stored_closing_kbbl": 180,
+              "planned_usable_closing_kbbl": 180,
+              "blocked_kbbl": 0
+            }
+          ],
+          "purchase_kbbl": 500,
+          "peak_planned_stored_kbbl": 580,
+          "minimum_usable_margin_kbbl": 0,
+          "storage_margin_kbbl": 20
+        },
+        "C80": {
+          "status": "FEASIBLE_UNDER_ASSUMPTIONS",
+          "cost_kusd": 37040,
+          "violations": [],
+          "min_planned_usable_kbbl": 80,
+          "ledger": [
+            {
+              "day": 1,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 2,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 3,
+              "arrivals_kbbl": 80,
+              "released_kbbl": 80,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 4,
+              "arrivals_kbbl": 420,
+              "released_kbbl": 420,
+              "planned_stored_before_use_kbbl": 500,
+              "planned_stored_closing_kbbl": 420,
+              "planned_usable_closing_kbbl": 420,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 5,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 420,
+              "planned_stored_closing_kbbl": 340,
+              "planned_usable_closing_kbbl": 340,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 6,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 340,
+              "planned_stored_closing_kbbl": 260,
+              "planned_usable_closing_kbbl": 260,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 7,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 260,
+              "planned_stored_closing_kbbl": 180,
+              "planned_usable_closing_kbbl": 180,
+              "blocked_kbbl": 0
+            }
+          ],
+          "purchase_kbbl": 500,
+          "peak_planned_stored_kbbl": 500,
+          "minimum_usable_margin_kbbl": 0,
+          "storage_margin_kbbl": 100
+        },
+        "C160": {
+          "status": "FEASIBLE_UNDER_ASSUMPTIONS",
+          "cost_kusd": 38080,
+          "violations": [],
+          "min_planned_usable_kbbl": 80,
+          "ledger": [
+            {
+              "day": 1,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 2,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 3,
+              "arrivals_kbbl": 160,
+              "released_kbbl": 160,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 4,
+              "arrivals_kbbl": 340,
+              "released_kbbl": 340,
+              "planned_stored_before_use_kbbl": 500,
+              "planned_stored_closing_kbbl": 420,
+              "planned_usable_closing_kbbl": 420,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 5,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 420,
+              "planned_stored_closing_kbbl": 340,
+              "planned_usable_closing_kbbl": 340,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 6,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 340,
+              "planned_stored_closing_kbbl": 260,
+              "planned_usable_closing_kbbl": 260,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 7,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 260,
+              "planned_stored_closing_kbbl": 180,
+              "planned_usable_closing_kbbl": 180,
+              "blocked_kbbl": 0
+            }
+          ],
+          "purchase_kbbl": 500,
+          "peak_planned_stored_kbbl": 500,
+          "minimum_usable_margin_kbbl": 0,
+          "storage_margin_kbbl": 100
+        },
+        "D80": {
+          "status": "FEASIBLE_UNDER_ASSUMPTIONS",
+          "cost_kusd": 36240,
+          "violations": [],
+          "min_planned_usable_kbbl": 80,
+          "ledger": [
+            {
+              "day": 1,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 2,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 3,
+              "arrivals_kbbl": 80,
+              "released_kbbl": 80,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 4,
+              "arrivals_kbbl": 420,
+              "released_kbbl": 420,
+              "planned_stored_before_use_kbbl": 500,
+              "planned_stored_closing_kbbl": 420,
+              "planned_usable_closing_kbbl": 420,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 5,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 420,
+              "planned_stored_closing_kbbl": 340,
+              "planned_usable_closing_kbbl": 340,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 6,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 340,
+              "planned_stored_closing_kbbl": 260,
+              "planned_usable_closing_kbbl": 260,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 7,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 260,
+              "planned_stored_closing_kbbl": 180,
+              "planned_usable_closing_kbbl": 180,
+              "blocked_kbbl": 0
+            }
+          ],
+          "purchase_kbbl": 500,
+          "peak_planned_stored_kbbl": 500,
+          "minimum_usable_margin_kbbl": 0,
+          "storage_margin_kbbl": 100
+        },
+        "D160": {
+          "status": "FEASIBLE_UNDER_ASSUMPTIONS",
+          "cost_kusd": 36480,
+          "violations": [],
+          "min_planned_usable_kbbl": 80,
+          "ledger": [
+            {
+              "day": 1,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 2,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 160,
+              "planned_stored_closing_kbbl": 80,
+              "planned_usable_closing_kbbl": 80,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 3,
+              "arrivals_kbbl": 160,
+              "released_kbbl": 160,
+              "planned_stored_before_use_kbbl": 240,
+              "planned_stored_closing_kbbl": 160,
+              "planned_usable_closing_kbbl": 160,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 4,
+              "arrivals_kbbl": 340,
+              "released_kbbl": 340,
+              "planned_stored_before_use_kbbl": 500,
+              "planned_stored_closing_kbbl": 420,
+              "planned_usable_closing_kbbl": 420,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 5,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 420,
+              "planned_stored_closing_kbbl": 340,
+              "planned_usable_closing_kbbl": 340,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 6,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 340,
+              "planned_stored_closing_kbbl": 260,
+              "planned_usable_closing_kbbl": 260,
+              "blocked_kbbl": 0
+            },
+            {
+              "day": 7,
+              "arrivals_kbbl": 0,
+              "released_kbbl": 0,
+              "planned_stored_before_use_kbbl": 260,
+              "planned_stored_closing_kbbl": 180,
+              "planned_usable_closing_kbbl": 180,
+              "blocked_kbbl": 0
+            }
+          ],
+          "purchase_kbbl": 500,
+          "peak_planned_stored_kbbl": 500,
+          "minimum_usable_margin_kbbl": 0,
+          "storage_margin_kbbl": 100
+        }
+      }
+    }
+  }
+}

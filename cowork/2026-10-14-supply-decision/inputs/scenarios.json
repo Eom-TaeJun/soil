@@ -1,0 +1,211 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-10-14",
+  "data_status": "SYNTHETIC_NOT_COMPANY_DATA",
+  "decision_time": "BEFORE_DAY_1_BEFORE_ADDITIONAL_ORDERS_ARE_COMMITTED",
+  "units": {
+    "quantity": "kbbl",
+    "unit_price": "USD/bbl",
+    "cost": "kUSD"
+  },
+  "settings": {
+    "days": 7,
+    "opening": 240,
+    "use": 80,
+    "floor": 80,
+    "capacity": 600,
+    "purchase": 500,
+    "terminal": 180
+  },
+  "defaults": {
+    "delay_days": 0,
+    "additional_cost": 0,
+    "b_premium": 3,
+    "base_price": 72,
+    "early_premium": 13,
+    "early_limit": 160,
+    "early_lot": 80,
+    "b_available": true,
+    "b_partial": false,
+    "b_partial_limit": 160,
+    "b_partial_lot": 80,
+    "split_fee_kusd": 0,
+    "quality_hold_days": 0,
+    "low_compatible": true
+  },
+  "assumptions": [
+    "Existing contracts are not cancelled; fixed receipts inside this synthetic seven-day window are zero.",
+    "B is available only as a 500 kbbl whole parcel unless the explicit counterfactual enables partial purchases.",
+    "All feed is a hypothetical equivalent material; this is not a comparison of real crude grades.",
+    "Low-cost follow-on parcels share A's arrival, quality and compatibility assumptions.",
+    "Prices are all synthetic included costs; additional_cost is added once to the low-cost source.",
+    "Daily opening receipts precede release checks and planned consumption."
+  ],
+  "scenarios": [
+    {
+      "id": "S0",
+      "name": "base",
+      "overrides": {},
+      "expected_winners": [
+        "A"
+      ],
+      "expected_best_cost_kusd": 36000
+    },
+    {
+      "id": "S1",
+      "name": "one_day_later",
+      "overrides": {
+        "delay_days": 1
+      },
+      "expected_winners": [
+        "C80"
+      ],
+      "expected_best_cost_kusd": 37040
+    },
+    {
+      "id": "S2",
+      "name": "two_days_later",
+      "overrides": {
+        "delay_days": 2
+      },
+      "expected_winners": [
+        "B"
+      ],
+      "expected_best_cost_kusd": 37500
+    },
+    {
+      "id": "S3",
+      "name": "delay_and_cost",
+      "overrides": {
+        "delay_days": 1,
+        "additional_cost": 2
+      },
+      "expected_winners": [
+        "B"
+      ],
+      "expected_best_cost_kusd": 37500
+    },
+    {
+      "id": "S4",
+      "name": "no_available_solution",
+      "overrides": {
+        "delay_days": 3,
+        "b_available": false
+      },
+      "expected_winners": [],
+      "expected_best_cost_kusd": null
+    },
+    {
+      "id": "S5",
+      "name": "storage_constraint",
+      "overrides": {
+        "delay_days": 2,
+        "capacity": 450
+      },
+      "expected_winners": [
+        "C160"
+      ],
+      "expected_best_cost_kusd": 38080
+    },
+    {
+      "id": "S6",
+      "name": "feasible_tie",
+      "overrides": {
+        "additional_cost": 3
+      },
+      "expected_winners": [
+        "A",
+        "B"
+      ],
+      "expected_best_cost_kusd": 37500
+    },
+    {
+      "id": "S7",
+      "name": "quality_hold",
+      "overrides": {
+        "quality_hold_days": 2
+      },
+      "expected_winners": [
+        "B"
+      ],
+      "expected_best_cost_kusd": 37500
+    },
+    {
+      "id": "S8",
+      "name": "compatibility_unknown",
+      "overrides": {
+        "low_compatible": null
+      },
+      "expected_winners": [
+        "B"
+      ],
+      "expected_best_cost_kusd": 37500
+    },
+    {
+      "id": "S9",
+      "name": "b_partial_counterexample",
+      "overrides": {
+        "delay_days": 1,
+        "b_partial": true
+      },
+      "expected_winners": [
+        "D80"
+      ],
+      "expected_best_cost_kusd": 36240
+    }
+  ],
+  "primary_grid": {
+    "delay_days": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "additional_cost": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "b_premium": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "planned_secondary_axes": {
+    "capacity": [
+      400,
+      450,
+      500,
+      550,
+      600,
+      650
+    ],
+    "early_limit": [
+      0,
+      80,
+      160,
+      240
+    ],
+    "b_available": [
+      true,
+      false
+    ],
+    "split_fee_kusd": [
+      0,
+      250,
+      500
+    ]
+  },
+  "secondary_grid_execution_status": "NOT_EXECUTED"
+}
